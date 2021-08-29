@@ -1,0 +1,188 @@
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Prosopium williamsoni dataset                                    
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +                                                                +
+ +   POPULATION SIZE, MIGRATION, DIVERGENCE, ASSIGNMENT, HISTORY  +
+ +   Bayesian inference using the structured coalescent           +
+ +                                                                +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  Compiled for a SYMMETRIC multiprocessors (GrandCentral)
+  PDF output enabled [Letter-size]
+  Version 4.4.4(git:v4-series-26-ge85c6ff)   [June-1-2019]
+  Program started at   Sat May 22 15:35:17 2021
+         finished at Sat May 22 19:57:10 2021
+                          
+
+
+Options in use:
+---------------
+
+Analysis strategy is BAYESIAN INFERENCE
+    - Population size estimation: Theta [Exponential Distribution]
+    - Geneflow estimation: Migration [Exponential Distribution]
+
+Proposal distribution:
+Parameter group          Proposal type
+-----------------------  -------------------
+Population size (Theta)  Metropolis sampling
+Migration rate      (M)  Metropolis sampling
+Divergence Time (D)  Metropolis sampling
+Divergence time spread (STD) Metropolis sampling
+Genealogy                Metropolis-Hastings
+
+
+Prior distribution (Proposal-delta will be tuned to acceptance frequence 0.440000):
+Parameter group            Prior type   Minimum    Mean(*)    Maximum    Delta      Bins   Updatefreq
+-------------------------  ------------ ---------- ---------- ---------- ---------- ------ -------
+Population size (Theta_1)      Uniform  0.000000   0.050000   0.100000   0.010000    1500  0.16667
+Population size (Theta_2)      Uniform  0.000000   0.050000   0.100000   0.010000    1500  0.16667
+Population size (Theta_3)      Uniform  0.000000   0.050000   0.100000   0.010000    1500  0.16667
+
+
+
+
+Inheritance scalers in use for Thetas (specified scalars=1)
+1.00 1.00 
+[Each Theta uses the (true) inheritance scalar of the first locus as a reference]
+
+
+Pseudo-random number generator: Mersenne-Twister                                
+Random number seed (with internal timer)           1547707685
+
+Start parameters:
+   First genealogy was started using a random tree
+   Start parameter values were generated
+Connection matrix:
+m = average (average over a group of Thetas or M,
+s = symmetric migration M, S = symmetric 4Nm,
+0 = zero, and not estimated,
+* = migration free to vary, Thetas are on diagonal
+d = row population split off column population
+D = split and then migration
+   1 Logan_Rive     * c 0 
+   2 Weber_Rive     0 * 0 
+   3 Provo_Rive     0 c * 
+
+
+
+Mutation rate is constant for all loci
+
+Markov chain settings:
+   Long chains (long-chains):                              1
+      Steps sampled (inc*samples*rep):              20000000
+      Steps recorded (sample*rep):                     20000
+   Combining over replicates:                              2
+   Static heating scheme
+      4 chains with  temperatures
+       1.00, 1.50, 3.00,1000000.00
+      Swapping interval is 1
+   Burn-in per replicate (samples*inc):              1000000
+
+Print options:
+   Data file:                                         infile
+   Haplotyping is turned on:                              NO
+   Output file (ASCII text):                         outfile
+   Output file (PDF):                            outfile.pdf
+   Posterior distribution:                         bayesfile
+   Print data:                                            No
+   Print genealogies:                                     No
+
+Summary of data:
+Title:                         Prosopium williamsoni dataset
+Data file:                                            infile
+Datatype:                                     Haplotype data
+Number of loci:                                            2
+Mutationmodel:
+ Locus  Sublocus  Mutationmodel   Mutationmodel parameter
+-----------------------------------------------------------------
+     1         1 HKY             [Bf:0.23 0.29 0.18 0.30, kappa=3.010]
+     2         1 HKY             [Bf:0.25 0.31 0.17 0.27, kappa=3.010]
+
+
+Sites per locus
+---------------
+Locus    Sites
+     1     1161
+     2     1050
+
+Population                   Locus   Gene copies    
+----------------------------------------------------
+  1 Logan_River                  1        25
+  1                              2        25
+  2 Weber_River                  1        28
+  2                              2        35
+  3 Provo_River                  1        16
+  3                              2        25
+    Total of all populations     1        69
+                                 2        85
+
+
+
+
+Bayesian estimates
+==================
+
+Locus Parameter        2.5%      25.0%    mode     75.0%   97.5%     median   mean
+-----------------------------------------------------------------------------------
+    1  Theta_1         0.00060  0.00100  0.00157  0.00280  0.00440  0.00210  0.00245
+    1  Theta_2         0.01467  0.02087  0.02270  0.02340  0.03300  0.02290  0.02337
+    1  Theta_3         0.00020  0.00053  0.00097  0.00133  0.00280  0.00123  0.00133
+    2  Theta_1         0.00073  0.00147  0.00263  0.00307  0.00993  0.00517  0.00537
+    2  Theta_2         0.00640  0.00920  0.01130  0.01247  0.01807  0.01150  0.01184
+    2  Theta_3         0.00107  0.00247  0.00283  0.00480  0.01027  0.00463  0.00509
+  All  Theta_1         0.00013  0.00167  0.00263  0.00347  0.00520  0.00270  0.00275
+  All  Theta_2         0.01000  0.01447  0.01690  0.01907  0.02353  0.01690  0.01694
+  All  Theta_3         0.00007  0.00140  0.00223  0.00293  0.00413  0.00223  0.00222
+-----------------------------------------------------------------------------------
+
+
+
+Log-Probability of the data given the model (marginal likelihood = log(P(D|thisModel))
+--------------------------------------------------------------------
+[Use this value for Bayes factor calculations:
+BF = Exp[log(P(D|thisModel) - log(P(D|otherModel)]
+shows the support for thisModel]
+
+
+
+Locus      Raw Thermodynamic score(1a)  Bezier approximated score(1b)      Harmonic mean(2)
+------------------------------------------------------------------------------------------
+      1              -2811.42                      -2672.76               -2612.63
+      2              -2360.44                      -2244.35               -2070.85
+---------------------------------------------------------------------------------------
+  All                -5181.69                      -4926.94               -5051.34
+[Scaling factor = -9.831919]
+
+
+(1a) Thermodynamic integration: log(Prob(D|Model)): Good approximation with many temperatures
+(1b) Bezier-approximated Thermodynamic integration: when using few temperatures USE THIS!
+(2)  Harmonic mean approximation: Overestimates the marginal likelihood, poor variance
+
+
+
+MCMC run characteristics
+========================
+
+
+
+
+Acceptance ratios for all parameters and the genealogies
+---------------------------------------------------------------------
+
+Parameter           Accepted changes               Ratio
+Theta_1                2846257/6666912           0.42692
+Theta_2                3926542/6667089           0.58894
+Theta_3                3730377/6660897           0.56004
+Genealogies            9320187/20005102           0.46589
+
+
+
+Autocorrelation for all parameters and the genealogies
+------------------------------------------------------------------------
+
+Parameter           Autocorrelation                Effective Sample size
+Theta_1                   0.480                 15886.944
+Theta_2                   0.325                 24768.176
+Theta_3                   0.602                 12457.081
+Genealogies               0.619                  10266.347
+(*) averaged over loci.

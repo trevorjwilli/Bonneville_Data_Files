@@ -1,0 +1,176 @@
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Bairdii ND4                                                      
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +                                                                +
+ +   POPULATION SIZE, MIGRATION, DIVERGENCE, ASSIGNMENT, HISTORY  +
+ +   Bayesian inference using the structured coalescent           +
+ +                                                                +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  Compiled for a SYMMETRIC multiprocessors (GrandCentral)
+  PDF output enabled [Letter-size]
+  Version 4.4.4(git:v4-series-26-ge85c6ff)   [June-1-2019]
+  Program started at   Thu May 20 09:28:39 2021
+         finished at Thu May 20 18:12:25 2021
+                          
+
+
+Options in use:
+---------------
+
+Analysis strategy is BAYESIAN INFERENCE
+    - Population size estimation: Theta [Exponential Distribution]
+    - Geneflow estimation: Migration [Exponential Distribution]
+    - Divergence estimation: Divergence time [Normal Distribution [Shortcut] with mean and]
+                                             [and standard deviation sigma     ]
+
+Proposal distribution:
+Parameter group          Proposal type
+-----------------------  -------------------
+Population size (Theta)  Metropolis sampling
+Migration rate      (M)  Metropolis sampling
+Divergence Time (D)  Metropolis sampling
+Divergence time spread (STD) Metropolis sampling
+Genealogy                Metropolis-Hastings
+
+
+Prior distribution (Proposal-delta will be tuned to acceptance frequence 0.440000):
+Parameter group            Prior type   Minimum    Mean(*)    Maximum    Delta      Bins   Updatefreq
+-------------------------  ------------ ---------- ---------- ---------- ---------- ------ -------
+Population size (Theta_1)      Uniform  0.000000   0.050000   0.100000   0.010000    1500  0.12500
+Population size (Theta_2)      Uniform  0.000000   0.050000   0.100000   0.010000    1500  0.12500
+Ancestor 2 to 1 (D_time)      Uniform  0.000000   0.010000  100.000000 10.000000    1500  0.12500
+Ancestor 2 to 1 (S_time)      Uniform  0.000000   0.010000  100.000000 10.000000    1500  0.12500
+
+
+
+
+Inheritance scalers in use for Thetas (specified scalars=1)
+1.00 
+[Each Theta uses the (true) inheritance scalar of the first locus as a reference]
+
+
+Pseudo-random number generator: Mersenne-Twister                                
+Random number seed (with internal timer)           3305160015
+
+Start parameters:
+   First genealogy was started using a random tree
+   Start parameter values were generated
+Connection matrix:
+m = average (average over a group of Thetas or M,
+s = symmetric migration M, S = symmetric 4Nm,
+0 = zero, and not estimated,
+* = migration free to vary, Thetas are on diagonal
+d = row population split off column population
+D = split and then migration
+   1 GSL            * d 
+   2 SEV            0 * 
+
+
+
+Mutation rate is constant 
+
+Markov chain settings:
+   Long chains (long-chains):                              1
+      Steps sampled (inc*samples*rep):              20000000
+      Steps recorded (sample*rep):                     20000
+   Combining over replicates:                              2
+   Static heating scheme
+      4 chains with  temperatures
+       1.00, 1.50, 3.00,1000000.00
+      Swapping interval is 1
+   Burn-in per replicate (samples*inc):              1000000
+
+Print options:
+   Data file:                                         infile
+   Haplotyping is turned on:                              NO
+   Output file (ASCII text):                         outfile
+   Output file (PDF):                            outfile.pdf
+   Posterior distribution:                         bayesfile
+   Print data:                                            No
+   Print genealogies:                                     No
+
+Summary of data:
+Title:                                           Bairdii ND4
+Data file:                                            infile
+Datatype:                                     Haplotype data
+Number of loci:                                            1
+Mutationmodel:
+ Locus  Sublocus  Mutationmodel   Mutationmodel parameter
+-----------------------------------------------------------------
+     1         1 HKY             [Bf:0.26 0.33 0.13 0.29, kappa=4.630]
+
+
+Sites per locus
+---------------
+Locus    Sites
+     1     363
+
+Population                   Locus   Gene copies    
+----------------------------------------------------
+  1 GSL                          1       203
+  2 SEV                          1       141
+    Total of all populations     1       344
+
+
+
+
+Bayesian estimates
+==================
+
+Locus Parameter        2.5%      25.0%    mode     75.0%   97.5%     median   mean
+-----------------------------------------------------------------------------------
+    1  Theta_1         0.02633  0.03760  0.04150  0.04527  0.05667  0.04157  0.04206
+    1  Theta_2         0.01540  0.02387  0.02917  0.03420  0.04280  0.02923  0.02922
+    1  D_2->1          0.00000  0.00000  0.03333 12.46667 45.20000 12.50000 31.22200
+    1  S_2->1          1.80000 18.93333 37.16667 41.26667 46.20000 26.56667 53.03280
+-----------------------------------------------------------------------------------
+
+
+
+Log-Probability of the data given the model (marginal likelihood = log(P(D|thisModel))
+--------------------------------------------------------------------
+[Use this value for Bayes factor calculations:
+BF = Exp[log(P(D|thisModel) - log(P(D|otherModel)]
+shows the support for thisModel]
+
+
+
+Locus      Raw Thermodynamic score(1a)  Bezier approximated score(1b)      Harmonic mean(2)
+------------------------------------------------------------------------------------------
+  All                -1733.63                      -1254.30                -935.47
+[Scaling factor = 0.000000]
+
+
+(1a) Thermodynamic integration: log(Prob(D|Model)): Good approximation with many temperatures
+(1b) Bezier-approximated Thermodynamic integration: when using few temperatures USE THIS!
+(2)  Harmonic mean approximation: Overestimates the marginal likelihood, poor variance
+
+
+
+MCMC run characteristics
+========================
+
+
+
+
+Acceptance ratios for all parameters and the genealogies
+---------------------------------------------------------------------
+
+Parameter           Accepted changes               Ratio
+Theta_1                1597549/2500727           0.63883
+Theta_2                 912497/2500594           0.36491
+D_2->1                  1821620/2498656           0.72904
+S_2->1                  2601467/2502541           1.03953
+Genealogies            2601467/9997482            0.26021
+
+
+
+Autocorrelation for all parameters and the genealogies
+------------------------------------------------------------------------
+
+Parameter           Autocorrelation                Effective Sample size
+Theta_1                   0.804                  2433.852
+Theta_2                   0.597                  5048.590
+D_2->1                   -0.003                 20104.796
+S_2->1                    0.009                 19634.447
+Genealogies               0.969                    318.613

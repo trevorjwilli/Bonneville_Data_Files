@@ -1,0 +1,177 @@
+Source,ID,Locality,Longitude,Latitude,Species,Collector,Date,site
+UMMZ,160721,"Duck Cr., by Duck Creek Ranger Station, Dixie Nat'l. Forest; Sevier R. drainage, near corner of scs.11,12,13,14",-112.699099,37.517175,Catostomus platyrhynchus,CL & LC Hubbs,6/25/1950,DD-05
+UMMZ,160722,"Duck Cr., by Duck Creek Ranger Station, Dixie Nat'l. Forest; Sevier R. drainage, near corner of scs.11,12,13,14",-112.699099,37.517175,Gila atraria,CL & LC Hubbs,6/25/1950,DD-05
+UMMZ,160724,"Duck Cr., by Duck Creek Ranger Station, Dixie Nat'l. Forest; Sevier R. drainage, near corner of scs.11,12,13,14",-112.699099,37.517175,Lepidomeda aliciae,CL & LC Hubbs,6/25/1950,DD-05
+UMMZ,160723,"Duck Cr., by Duck Creek Ranger Station, Dixie Nat'l. Forest; Sevier R. drainage, near corner of scs.11,12,13,14",-112.699099,37.517175,Richardsonius balteatus,CL & LC Hubbs,6/25/1950,DD-05
+UMMZ,124776,"Eastern trib. of Shoal Creek, about 10 mi SW of Enterprise, above 1st Enterprise Reservoir; Sevier River dr",-113.875078,37.496396,Catostomus platyrhynchus,CL Hubbs family,7/4/1938,DD-01
+UMMZ,124777,"Eastern branch of Shoal Creek, just below dam of lower reservoir; Sevier River drainage",-113.850475,37.52648,Catostomus platyrhynchus,CL Hubbs family,7/4/1938,DD-01
+UMMZ,124775,"Eastern trib. of Shoal Creek, about 10 mi SW of Enterprise, above 1st Enterprise Reservoir; Sevier River dr",-113.875078,37.496396,Rhinichthys osculus,CL Hubbs family,7/4/1938,DD-01
+UMMZ,124778,"Eastern branch of Shoal Creek, just below dam of lower reservoir; Sevier River drainage",-113.850475,37.52648,Rhinichthys osculus,CL Hubbs family,7/4/1938,DD-01
+UMMZ,141470,"Spring Creek, near Provo River, inside city limits of Provo, at rock crusher",-111.656554,40.202967,Catostomus platyrhynchus,CL Hubbs family & WW Tanner,6/19/1942,DD-35
+UMMZ,141471,"Spring Creek, near Provo River, inside city limits of Provo, at rock crusher",-111.656554,40.202967,Lepidomeda aliciae,CL Hubbs family & WW Tanner,6/19/1942,DD-35
+UMMZ,141473,"Spring Creek, near Provo River, inside city limits of Provo, at rock crusher",-111.656554,40.202967,Rhinichthys cataractae,CL Hubbs family & WW Tanner,6/19/1942,DD-35
+UMMZ,141474,"Spring Creek, near Provo River, inside city limits of Provo, at rock crusher",-111.656554,40.202967,Rhinichthys osculus,CL Hubbs family & WW Tanner,6/19/1942,DD-35
+UMMZ,141472,"Spring Creek, near Provo River, inside city limits of Provo, at rock crusher",-111.656554,40.202967,Richardsonius balteatus,CL Hubbs family & WW Tanner,6/19/1942,DD-35
+UMMZ,141465,"Springville fields, W of Springville, just below Columbia Steel Co Plant",-111.620212,41.187253,Gila atraria,CL Hubbs family & WW Tanner,6/19/1942,DD-66
+UMMZ,141466,"Springville fields, W of Springville, just below Columbia Steel Co Plant",-111.620212,41.187253,Rhinichthys osculus,CL Hubbs family & WW Tanner,6/19/1942,DD-66
+UMMZ,141467,"Springville fields, W of Springville, just below Columbia Steel Co Plant",-111.620212,41.187253,Richardsonius balteatus,CL Hubbs family & WW Tanner,6/19/1942,DD-66
+UMMZ,141477,"Provo River, at rock crusher, Provo, ca 1 mi W & 0.5 mi N of main part of town",-111.697133,40.238278,Catostomus platyrhynchus,"CL Hubbs family, VM & WW Tanner",6/19/1942,DD-38
+UMMZ,141478,"Provo River, at rock crusher, Provo, ca 1 mi W & 0.5 mi N of main part of town",-111.697133,40.238278,Chasmistes liorus,"CL Hubbs family, VM & WW Tanner",6/19/1942,DD-38
+UMMZ,141488,"Provo River, at rock crusher, Provo, ca 1 mi W & 0.5 mi N of main part of town",-111.697133,40.238278,Cottus bairdii,"CL Hubbs family, VM & WW Tanner",6/19/1942,DD-38
+UMMZ,141480,"Provo River, at rock crusher, Provo, ca 1 mi W & 0.5 mi N of main part of town",-111.697133,40.238278,Lepidomeda aliciae,"CL Hubbs family, VM & WW Tanner",6/19/1942,DD-38
+UMMZ,141476,"Provo River, at rock crusher, Provo, ca 1 mi W & 0.5 mi N of main part of town",-111.697133,40.238278,Prosopium williamsoni,"CL Hubbs family, VM & WW Tanner",6/19/1942,DD-38
+UMMZ,141483,"Provo River, at rock crusher, Provo, ca 1 mi W & 0.5 mi N of main part of town",-111.697133,40.238278,Rhinichthys cataractae,"CL Hubbs family, VM & WW Tanner",6/19/1942,DD-38
+UMMZ,141482,"Provo River, at rock crusher, Provo, ca 1 mi W & 0.5 mi N of main part of town",-111.697133,40.238278,Rhinichthys osculus,"CL Hubbs family, VM & WW Tanner",6/19/1942,DD-38
+UMMZ,141481,"Provo River, at rock crusher, Provo, ca 1 mi W & 0.5 mi N of main part of town",-111.697133,40.238278,Richardsonius balteatus,"CL Hubbs family, VM & WW Tanner",6/19/1942,DD-38
+UMMZ,141417,"Salt Springs, ca 21 mi  S of Wendover, where lava reaches out to salt flat of Great Salt Lake Desert",-114.044792,40.500068,Gila atraria,"CL, LC & EL Hubbs",6/9/1942,DD-100
+UMMZ,141427,"Big Spring (=Cold Spring), Fish Springs Flat, ca 3 mi N of Thomas Ranch",-113.413517,39.887133,Gila atraria,"CL, LC & EL Hubbs",6/11/1942,DD-101
+UMMZ,141426,"George Walter Spring in Fish Springs Flat, ca 1.5 mi N of Thomas Ranch, 1.4 mi S of Big Spring",-113.402922,39.870679,Gila atraria,"CL, LC & EL Hubbs",6/11/1942,DD-101
+UMMZ,141424,"Fish Springs, 7/10 mi S of Thomas Ranch, Fish Springs Flat, lower of 2 large springs",-113.395442,39.850482,Gila atraria,"CL, LC & EL Hubbs",6/10/1942,DD-101
+UMMZ,141425,"Springs ca 1/8 mi SE of Thomas Ranch, Fish Springs Flat",-113.395442,39.850482,Gila atraria,"CL, LC & EL Hubbs",6/10/1942,DD-101
+UMMZ,141418,"Reddin Springs, Snake Valley (lower end), where opens on Great Salt Lake Desert, (SE Corner)",-113.700152,39.992733,Gila atraria,"CL, LC & EL Hubbs",6/10/1942,DD-102
+UMMZ,141437,"Spring on W side of Salt Flat, NE of Gandy and S of old salt works, Snake Valley",-113.911224,39.49757,Gila atraria,"CL, LC & EL Hubbs",6/13/1942,DD-107
+UMMZ,141428,"Southern part of 'The Chimneys'(spring area ca 1 mi long) in trough of Snake Valley, just S of Juab county line,  *",-113.904869,39.498408,Gila atraria,"CL, LC & EL Hubbs",6/12/1942,DD-107
+UMMZ,141435,"Spring on W side of Salt Flat, NE of Gandy and S of old salt works, Snake Valley",-113.911224,39.49757,Iotichthys phlegethontis,"CL, LC & EL Hubbs",6/13/1942,DD-107
+UMMZ,141429,"Southern part of 'The Chimneys'(spring area ca 1 mi long) in trough of Snake Valley, just S of Juab county line,  *",-113.904869,39.498408,Iotichthys phlegethontis,"CL, LC & EL Hubbs",6/12/1942,DD-107
+UMMZ,141432,"Outlet ditch of Big Spring of Foote Ranch, on east side of Snake Valley, opposite Gandy",-113.875972,39.413127,Gila atraria,"CL, LC & EL Hubbs",6/12/1942,DD-108
+UMMZ,141431,"Outlet ditch of Big Spring of Foote Ranch, on east side of Snake Valley, opposite Gandy",-113.875972,39.413127,Iotichthys phlegethontis,"CL, LC & EL Hubbs",6/12/1942,DD-108
+UMMZ,141434,"Small knoll spring, about 1/2 mi SW of Big Spring Foote Ranch, on E side of Snake Valley, opposite Gandy",-113.875972,39.413127,Iotichthys phlegethontis,"CL, LC & EL Hubbs",6/12/1942,DD-108
+UMMZ,141419,"One of Willow Springs, just N of Callao on Bagley Ranch, Snake Valley",-113.714965,39.910343,Gila atraria,"CL, LC & EL Hubbs",6/10/1942,DD-110
+UMMZ,141422,"Spring Stream, Willow Springs, just N of Callao, Snake Valley, on Bagley Ranch",-113.714965,39.910343,Gila atraria,"CL, LC & EL Hubbs",6/10/1942,DD-110
+UMMZ,141439,"Sevier River, 5.8 mi N of Delta on US 6.",-112.479063,39.409916,Catostomus ardens,"CL, LC & EL Hubbs",6/15/1942,DD-27
+UMMZ,141440,"Sevier River, 5.8 mi N of Delta on US 6.",-112.479063,39.409916,Catostomus platyrhynchus,"CL, LC & EL Hubbs",6/15/1942,DD-27
+UMMZ,141445,"Sevier River, 5.8 mi N of Delta on US 6.",-112.479063,39.409916,Cottus bairdii,"CL, LC & EL Hubbs",6/15/1942,DD-27
+UMMZ,141444,"Sevier River, 5.8 mi N of Delta on US 6.",-112.479063,39.409916,Gila atraria,"CL, LC & EL Hubbs",6/15/1942,DD-27
+UMMZ,141443,"Sevier River, 5.8 mi N of Delta on US 6.",-112.479063,39.409916,Lepidomeda aliciae,"CL, LC & EL Hubbs",6/15/1942,DD-27
+UMMZ,141442,"Sevier River, 5.8 mi N of Delta on US 6.",-112.479063,39.409916,Rhinichthys osculus,"CL, LC & EL Hubbs",6/15/1942,DD-27
+UMMZ,141441,"Sevier River, 5.8 mi N of Delta on US 6.",-112.479063,39.409916,Richardsonius balteatus,"CL, LC & EL Hubbs",6/15/1942,DD-27
+UMMZ,141451,"Jordan River, 0.8 mi W of Riverton, outlet of Utah L, trib to Great Salt Lake, below moist irrigation diversions.",-111.921972,40.523754,Catostomus ardens,"CL, LC & EL Hubbs",6/15/1942,DD-51
+UMMZ,141450,"Jordan River, 0.8 mi W of Riverton, outlet of Utah L, trib to Great Salt Lake, below moist irrigation diversions.",-111.921972,40.523754,Catostomus platyrhynchus,"CL, LC & EL Hubbs",6/15/1942,DD-51
+UMMZ,141456,"Jordan River, 0.8 mi W of Riverton, outlet of Utah L, trib to Great Salt Lake, below moist irrigation diversions.",-111.921972,40.523754,Gila atraria,"CL, LC & EL Hubbs",6/15/1942,DD-51
+UMMZ,141453,"Jordan River, 0.8 mi W of Riverton, outlet of Utah L, trib to Great Salt Lake, below moist irrigation diversions.",-111.921972,40.523754,Rhinichthys cataractae,"CL, LC & EL Hubbs",6/15/1942,DD-51
+UMMZ,141454,"Jordan River, 0.8 mi W of Riverton, outlet of Utah L, trib to Great Salt Lake, below moist irrigation diversions.",-111.921972,40.523754,Rhinichthys osculus,"CL, LC & EL Hubbs",6/15/1942,DD-51
+UMMZ,141455,"Jordan River, 0.8 mi W of Riverton, outlet of Utah L, trib to Great Salt Lake, below moist irrigation diversions.",-111.921972,40.523754,Richardsonius balteatus,"CL, LC & EL Hubbs",6/15/1942,DD-51
+UMMZ,141395,"Spring on grassy meadows, just off Lake Point (N end of Oquirrh Mts), along margin of Great Salt Lake",-112.241061,40.715167,Gila atraria,"CL, LC & EL Hubbs",6/6/1942,DD-57
+UMMZ,141398,"Spring in Rush Valley, 0.5 mi S of Morgan Ranch warm spring, NE Corner, elev 5004 ft, Stockton Quadrangle",-112.424651,40.390319,Gila atraria,"CL, LC & EL Hubbs",6/6/1942,DD-58
+UMMZ,141498,"Blue Spring Creek, just above Howell, Blue Spring Valley, Below Provo level",-112.455294,41.831925,Gila atraria,"CL, LC & EL Hubbs",6/20/1942,DD-89
+UMMZ,141497,"Blue Spring Creek, just above Howell, Blue Spring Valley, Below Provo level",-112.455294,41.831925,Rhinichthys osculus,"CL, LC & EL Hubbs",6/20/1942,DD-89
+UMMZ,141491,"Spring at S tip of Blue Spring Hill, 14.8 mi W of Corinne, Running part of spring below RR just S of H42-33",-112.384882,41.607721,Gila atraria,"CL, LC & EL Hubbs",6/20/1942,DD-90
+UMMZ,141490,"Spring at southern tip of Blue Spring Hills, 14.8 mi (by road) W of Corinne, Head spring dammed by RR (old SP line)",-112.379497,41.615831,Gila atraria,"CL, LC & EL Hubbs",6/20/1942,DD-90
+UMMZ,141492,"Spring at S tip of Blue Spring Hill, 14.8 mi W of Corinne, Running part of spring below RR just S of H42-33",-112.384882,41.607721,Rhinichthys osculus,"CL, LC & EL Hubbs",6/20/1942,DD-90
+UMMZ,141489,"Spring at southern tip of Blue Spring Hills, 14.8 mi (by road) W of Corinne, Head spring dammed by RR (old SP line)",-112.379497,41.615831,Rhinichthys osculus,"CL, LC & EL Hubbs",6/20/1942,DD-90
+UMMZ,141500,"Deep Creek, ca 1 mi S of Snowville, Curlew Valley.",-112.729774,41.95487,Catostomus ardens,"CL, LC & EL Hubbs",6/21/1942,DD-91
+UMMZ,141501,"Deep Creek, ca 1 mi S of Snowville, Curlew Valley.",-112.729774,41.95487,Gila atraria,"CL, LC & EL Hubbs",6/21/1942,DD-91
+UMMZ,141503,"Deep Creek, ca 1 mi S of Snowville, Curlew Valley.",-112.729774,41.95487,Rhinichthys osculus,"CL, LC & EL Hubbs",6/21/1942,DD-91
+UMMZ,141502,"Deep Creek, ca 1 mi S of Snowville, Curlew Valley.",-112.729774,41.95487,Richardsonius balteatus,"CL, LC & EL Hubbs",6/21/1942,DD-91
+UMMZ,141504,"Warm Spring ca 10 mi by road SW of Rosette, at foot of second hill running S from Dennis Hill, Basin of Dove  *",-113.599513,41.756785,Rhinichthys osculus,"CL, LC & EL Hubbs",6/21/1942,DD-93
+UMMZ,141505,"Warm Spring ca 10 mi by road SW of Rosette, at foot of second hill running S from Dennis Hill, Basin of Dove  *",-113.599513,41.756785,Rhinichthys osculus,"CL, LC & EL Hubbs",6/21/1942,DD-93
+UMMZ,141508,"Cool spring head of Etna Creek, ca 2.5 mi N of Etna, Extreme NE corner of section, spring in small side valley *",-113.971452,41.714897,Rhinichthys osculus,"CL, LC & EL Hubbs",6/22/1942,DD-94
+UMMZ,141506,"Etna Creek at Etna, ca 3 mi below head springs, Trib to Grouse Creek, Bonneville System",-113.949382,41.672224,Rhinichthys osculus,"CL, LC & EL Hubbs",6/22/1942,DD-95
+UMMZ,141507,"Etna Creek at Etna, ca 3 mi below head springs, Trib to Grouse Creek, Bonneville System",-113.949382,41.672224,Rhinichthys osculus,"CL, LC & EL Hubbs",6/22/1942,DD-95
+UMMZ,141403,"Muskrat Spring, 8.0 mi N of Iosepa, Skull Valley",-112.695712,40.638882,Gila atraria,"CL, LC & EL Hubbs",6/7/1942,DD-97
+UMMZ,141402,"Horseshoe Spring (locally)= Big Sping (Carpenter, 1913), Skull Valley, just above desert flat, 6 mi N of Iosepa",-112.710115,40.613555,Gila atraria,"CL, LC & EL Hubbs",6/7/1942,DD-98
+UMMZ,141401,"Springs 1.5 mi N of Iosepa, Skull Valley, trib. to slough called 'Blue Lake'",-112.739039,40.559571,Gila atraria,"CL, LC & EL Hubbs",6/6/1942,DD-99
+UMMZ,141399,"Springs 1.5 mi N of Iosepa, Skull Valley, trib. to slough called 'Blue Lake'",-112.739039,40.559571,Rhinichthys osculus,"CL, LC & EL Hubbs",6/6/1942,DD-99
+UMMZ,141400,"Springs 1.5 mi N of Iosepa, Skull Valley, trib. to slough called 'Blue Lake'",-112.739039,40.559571,Rhinichthys osculus,"CL, LC & EL Hubbs",6/6/1942,DD-99
+UMMZ,141676,"Headwater of Sevier River, a little above mouth of Asay Creek, 7 mi N of Summit between Sevier and Colorado *",-112.47637,37.57888,Catostomus platyrhynchus,"CL, LC, & EL Hubbs",7/30/1942,DD-07
+UMMZ,141677,"Headwater of Sevier River, a little above mouth of Asay Creek, 7 mi N of Summit between Sevier and Colorado *",-112.47637,37.57888,Lepidomeda aliciae,"CL, LC, & EL Hubbs",7/30/1942,DD-07
+UMMZ,141678,"Headwater of Sevier River, a little above mouth of Asay Creek, 7 mi N of Summit between Sevier and Colorado *",-112.47637,37.57888,Rhinichthys osculus,"CL, LC, & EL Hubbs",7/30/1942,DD-07
+UMMZ,141686,"E Fk of Sevier R., just below crossing of Utah 12, ca. 4 mi due line NE of diversion dam for Tropic Ditch, Emery *",-112.1913,37.697131,Catostomus platyrhynchus,"CL, LC, & EL Hubbs",7/31/1942,DD-09
+UMMZ,141688,"E Fk of Sevier R., just below crossing of Utah 12, ca. 4 mi due line NE of diversion dam for Tropic Ditch, Emery *",-112.1913,37.697131,Cottus bairdii,"CL, LC, & EL Hubbs",7/31/1942,DD-09
+UMMZ,141687,"E Fk of Sevier R., just below crossing of Utah 12, ca. 4 mi due line NE of diversion dam for Tropic Ditch, Emery *",-112.1913,37.697131,Rhinichthys osculus,"CL, LC, & EL Hubbs",7/31/1942,DD-09
+UMMZ,141414,"West Deep Cr., 1 mi above junction of East & Middle Deep Creeks, ca 1/2 mi above Ibapah, stream entrenched about 15'",-114.012342,40.01755,Catostomus platyrhynchus,"CL, LC, & EL Hubbs",6/9/1942,DD-103
+UMMZ,141415,"West Deep Cr., 1 mi above junction of East & Middle Deep Creeks, ca 1/2 mi above Ibapah, stream entrenched about 15'",-114.012342,40.01755,Catostomus platyrhynchus,"CL, LC, & EL Hubbs",6/9/1942,DD-103
+UMMZ,141416,"West Deep Cr., 1 mi above junction of East & Middle Deep Creeks, ca 1/2 mi above Ibapah, stream entrenched about 15'",-114.012342,40.01755,Rhinichthys osculus,"CL, LC, & EL Hubbs",6/9/1942,DD-103
+UMMZ,141689,"Saline Creek, trib. to Sevier R., 13. 5 mi, via Utah 10, up canyon from Salina",-111.64358,38.900093,Catostomus platyrhynchus,"CL, LC, & EL Hubbs",7/31/1942,DD-21
+UMMZ,141690,"Saline Creek, trib. to Sevier R., 13. 5 mi, via Utah 10, up canyon from Salina",-111.64358,38.900093,Lepidomeda aliciae,"CL, LC, & EL Hubbs",7/31/1942,DD-21
+UMMZ,141691,"Saline Creek, trib. to Sevier R., 13. 5 mi, via Utah 10, up canyon from Salina",-111.64358,38.900093,Rhinichthys osculus,"CL, LC, & EL Hubbs",7/31/1942,DD-21
+UMMZ,141681,"Mammoth Creek & Sevier River, near junction, ca 2.5 mi S of Hatch",-112.445143,37.626082,Catostomus platyrhynchus,"CL, LC, EL Hubbs",7/30/1942,DD-07
+UMMZ,141685,"Mammoth Creek & Sevier River, near junction, ca 2.5 mi S of Hatch",-112.445143,37.626082,Cottus bairdii,"CL, LC, EL Hubbs",7/30/1942,DD-07
+UMMZ,141684,"Mammoth Creek & Sevier River, near junction, ca 2.5 mi S of Hatch",-112.445143,37.626082,Lepidomeda aliciae,"CL, LC, EL Hubbs",7/30/1942,DD-07
+UMMZ,141683,"Mammoth Creek & Sevier River, near junction, ca 2.5 mi S of Hatch",-112.445143,37.626082,Rhinichthys osculus,"CL, LC, EL Hubbs",7/30/1942,DD-07
+UMMZ,141682,"Mammoth Creek & Sevier River, near junction, ca 2.5 mi S of Hatch",-112.445143,37.626082,Richardsonius balteatus,"CL, LC, EL Hubbs",7/30/1942,DD-07
+UMMZ,141407,"Middle Deep Creek, Fred Snively Ranch, Ibapah",-113.990981,40.005898,Catostomus platyrhynchus,"CL, LC, EL Hubbs",6/8/1942,DD-103
+UMMZ,141408,"Middle Deep Creek, Fred Snively Ranch, Ibapah",-113.990981,40.005898,Rhinichthys osculus,"CL, LC, EL Hubbs",6/8/1942,DD-103
+UMMZ,141404,"Salt Spring(Carpenter 1913)=Big Spring(locally),Skull Valley,just S of US 40,ca 14.5 mi N of Iosepa,near Timpe",-112.64756,40.741812,Gila atraria,"CL, LC, EL Hubbs",6/7/1942,DD-96
+MLBM,3652,Provo River-at Rock Crusher,-111.68129,40.24301,Rhinichthys cataractae,Hubbs & Tanner,20-Jun-42,DD-38
+UMMZ,124774,"Iron Springs, 10 mi NW of Cedar City, ca 1/2 mi above Iron Springs RR Station, flowing toward Escalante Desert",-113.235285,37.756906,Gila atraria,Hubbs family,7/4/1938,DD-03
+UMMZ,124773,"Iron Springs, 10 mi NW of Cedar City, ca 1/2 mi above Iron Springs RR Station, flowing toward Escalante Desert",-113.235285,37.756906,Rhinichthys osculus,Hubbs family,7/4/1938,DD-03
+MLBM,4191,"Spring Stream-S.W. of Pipe Plant, Provo",-111.64399,40.20337,Richardsonius balteatus,"Hubbs, C.; Hubbs, L.; Hubbs, E.; Tanner, W.; Tanner, J.",20-Jun-42,DD-35
+MLBM,4187,"Provo River-about 11th W. 6th N., Provo",-111.68129,40.24301,Richardsonius balteatus,"Hubbs, C.; Hubbs, L.; Hubbs, E.; Tanner, W.; Tanner, J.",20-Jun-42,DD-38
+Fishnet2,75163,Big Springs,-114.131153,38.697822,Catostomus ardens,"Hubbs, Carl",1935,DD-109
+Fishnet2,40795,Big Springs,-114.131153,38.697822,Rhinichthys osculus,"Hubbs, Carl L.",1938,DD-109
+Fishnet2,40822,Big Springs,-114.131153,38.697822,Richardsonius balteatus,"Hubbs, Carl L.",1935,DD-109
+MLBM,4756,"Provo River-at Rock Crusher, 13 W. 6 N., Provo",-111.68129,40.24301,Catostomus ardens,"Hubbs, Carl; Tanner, Vasco M.",19-Jun-42,DD-38
+MLBM,6846,"Provo River-about 11 West and 6th North, ""Rock Crusher"", Provo",-111.68129,40.24301,Richardsonius balteatus,"Hubbs, Carl; Tanner, Wilmer; Tanner, Vasco M.",20-Jun-42,DD-38
+Fishnet2,41683,Fish Springs.,-113.39444,39.86083,Gila atraria,"Snyder, John O.; Hubbs, Carl L.",1915,DD-101
+Fishnet2,37762,"Deep Creek, near Ibapa.",-113.997833,40.037393,Catostomus platyrhynchus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-103
+Fishnet2,38039,"Deep Creek, near Ibapa.",-113.997833,40.037393,Cottus bairdii,"Snyder, John O.; Hubbs, Carl L.",1915,DD-103
+Fishnet2,41695,"Deep Creek, near Ibapa.",-113.997833,40.037393,Rhinichthys osculus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-103
+Fishnet2,16931,"Sevier R., near Panguitch.",-112.418692,37.837016,Catostomus platyrhynchus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-11
+Fishnet2,37765,"Sevier R., near Panguitch.",-112.418692,37.837016,Catostomus platyrhynchus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-11
+Fishnet2,38030,"Sevier R., near Panguitch.",-112.418692,37.837016,Cottus bairdii,"Snyder, John O.; Hubbs, Carl L.",1915,DD-11
+Fishnet2,37926,"Sevier R., near Panguitch.",-112.418692,37.837016,Lepidomeda aliciae,"Snyder, John O.; Hubbs, Carl L.",1915,DD-11
+Fishnet2,41704,"Sevier R., near Panguitch.",-112.418692,37.837016,Lepidomeda aliciae,"Snyder, John O.; Hubbs, Carl L.",1915,DD-11
+Fishnet2,41690,"Sevier R., near Panguitch.",-112.418692,37.837016,Rhinichthys osculus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-11
+Fishnet2,41696,"Sevier R., near Panguitch.",-112.418692,37.837016,Rhinichthys osculus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-11
+Fishnet2,37939,"Sevier R., near Panguitch.",-112.418692,37.837016,Richardsonius balteatus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-11
+Fishnet2,37922,"Bear Valley Cr., 10 mi. above Orton.",-112.529851,37.991352,Lepidomeda aliciae,"Snyder, John O.; Hubbs, Carl L.",1915,DD-13
+Fishnet2,37923,"Bear Valley Cr., 10 mi. above Orton.",-112.529851,37.991352,Lepidomeda aliciae,"Snyder, John O.; Hubbs, Carl L.",1915,DD-13
+Fishnet2,16127,"Beaver R., 8 miles below Beaver, Utah.",-112.766902,38.253603,Catostomus ardens,"Snyder, John O.; Hubbs, Carl L.",1915,DD-15
+Fishnet2,68919,"Beaver R., 8 miles below Beaver, Utah.",-112.766902,38.253603,Catostomus platyrhynchus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-15
+Fishnet2,37758,"Beaver R., 8 miles below Beaver.",-112.766902,38.253603,Catostomus platyrhynchus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-15
+Fishnet2,38042,"Beaver R., 8 miles below Beaver.",-112.766902,38.253603,Cottus bairdii,"Snyder, John O.; Hubbs, Carl L.",1915,DD-15
+Fishnet2,41680,"Beaver R., 8 miles below Beaver.",-112.766902,38.253603,Gila atraria,"Snyder, John O.; Hubbs, Carl L.",1915,DD-15
+Fishnet2,37927,"Beaver R., 8 miles below Beaver.",-112.766902,38.253603,Lepidomeda aliciae,"Snyder, John O.; Hubbs, Carl L.",1915,DD-15
+Fishnet2,41691,"Beaver R., 8 miles below Beaver.",-112.766902,38.253603,Rhinichthys osculus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-15
+Fishnet2,37935,"Beaver R., 8 miles below Beaver.",-112.766902,38.253603,Richardsonius balteatus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-15
+Fishnet2,75509,Sevier River at Salina,-111.885927,38.956066,Catostomus ardens,"Snyder, John O.; Hubbs, Carl L.",1915,DD-22
+Fishnet2,37763,"Sevier R., Salina.",-111.885927,38.956066,Catostomus platyrhynchus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-22
+Fishnet2,37764,"Sevier R., Salina.",-111.885927,38.956066,Catostomus platyrhynchus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-22
+Fishnet2,226601,Sevier River at Salina,-111.885927,38.956066,Catostomus platyrhynchus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-22
+Fishnet2,38033,"Sevier R., Salina.",-111.885927,38.956066,Cottus bairdii,"Snyder, John O.; Hubbs, Carl L.",1915,DD-22
+Fishnet2,41678,"Sevier R., Salina.",-111.885927,38.956066,Gila atraria,"Snyder, John O.; Hubbs, Carl L.",1915,DD-22
+Fishnet2,41679,"Sevier R., Salina.",-111.885927,38.956066,Gila atraria,"Snyder, John O.; Hubbs, Carl L.",1915,DD-22
+Fishnet2,16150,"Sevier River, Salina, Utah.",-111.885927,38.956066,Gila atraria,"Snyder, John O.; Hubbs, Carl L.",1915,DD-22
+Fishnet2,16152,"Sevier River, Salina, Utah.",-111.885927,38.956066,Gila atraria,"Snyder, John O.; Hubbs, Carl L.",1915,DD-22
+Fishnet2,37925,"Sevier R., Salina.",-111.885927,38.956066,Lepidomeda aliciae,"Snyder, John O.; Hubbs, Carl L.",1915,DD-22
+Fishnet2,37785,"Sevier R., Salina.",-111.885927,38.956066,Rhinichthys osculus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-22
+Fishnet2,41689,"Sevier R., Salina.",-111.885927,38.956066,Rhinichthys osculus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-22
+Fishnet2,226602,Sevier River at Salina,-111.885927,38.956066,Rhinichthys osculus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-22
+Fishnet2,16151,"Sevier River, Salina, Utah.",-111.885927,38.956066,Richardsonius balteatus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-22
+Fishnet2,16153,"Sevier River, Salina, Utah.",-111.885927,38.956066,Richardsonius balteatus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-22
+Fishnet2,31919,"San Pete R., Gunnison.",-111.818707,39.147185,Catostomus platyrhynchus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-24
+Fishnet2,38041,"San Pete R., Gunnison, Utah",-111.818707,39.147185,Cottus bairdii,"Snyder, John O.; Hubbs, Carl L.",1915,DD-24
+Fishnet2,37920,"San Pete R., Gunnison, Utah",-111.818707,39.147185,Lepidomeda aliciae,"Snyder, John O.; Hubbs, Carl L.",1915,DD-24
+Fishnet2,41688,"San Pete R., Gunnison.",-111.818707,39.147185,Rhinichthys osculus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-24
+Fishnet2,37938,"San Pete R., Gunnison, Utah",-111.818707,39.147185,Richardsonius balteatus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-24
+Fishnet2,37766,"Sevier R., Mills.",-112.052497,39.482946,Catostomus platyrhynchus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-28
+Fishnet2,38031,"Sevier R., Mills.",-112.052497,39.482946,Cottus bairdii,"Snyder, John O.; Hubbs, Carl L.",1915,DD-28
+Fishnet2,37929,"Sevier R., Mills.",-112.052497,39.482946,Richardsonius balteatus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-28
+Fishnet2,38043,"Provo R., between Charleston & Midway.",-111.450961,40.498034,Cottus bairdii,"Snyder, John O.; Hubbs, Carl L.",1915,DD-45
+Fishnet2,41686,"Provo R., between Charleston & Midway.",-111.450961,40.498034,Rhinichthys osculus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-45
+Fishnet2,37937,"Provo R., between Charleston & Midway.",-111.450961,40.498034,Richardsonius balteatus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-45
+Fishnet2,37971,"Wilson Spring, Midway.",-111.47361,40.51222,Oncorhynchus clarkii,"Snyder, John O.; Hubbs, Carl L.",1915,DD-46
+Fishnet2,37928,"Wilson Spring, Midway.",-111.47361,40.51222,Richardsonius balteatus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-46
+Fishnet2,16131,"North Fork, Provo R., Utah.",-111.031489,40.627522,Catostomus platyrhynchus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-49
+Fishnet2,38045,"North Fork, Provo R., Utah.",-111.031489,40.627522,Cottus bairdii,"Snyder, John O.; Hubbs, Carl L.",1915,DD-49
+Fishnet2,16149,"North Fork, Provo R., Utah.",-111.031489,40.627522,Cottus bairdii,"Snyder, John O.; Hubbs, Carl L.",1915,DD-49
+Fishnet2,16143,"North Fork, Provo R., Utah.",-111.031489,40.627522,Gila atraria,"Snyder, John O.; Hubbs, Carl L.",1915,DD-49
+Fishnet2,16146,"North Fork, Provo R., Utah.",-111.031489,40.627522,Lepidomeda aliciae,"Snyder, John O.; Hubbs, Carl L.",1915,DD-49
+Fishnet2,41703,"North Fork, Provo R., Utah.",-111.031489,40.627522,Lepidomeda aliciae,"Snyder, John O.; Hubbs, Carl L.",1915,DD-49
+Fishnet2,57886,"Provo River, North Fork.",-111.02724,40.62904,Lepidomeda aliciae,"Snyder, John O.; Hubbs, Carl L.",1915,DD-49
+Fishnet2,16144,"North Fork, Provo R., Utah.",-111.031489,40.627522,Rhinichthys cataractae,"Snyder, John O.; Hubbs, Carl L.",1915,DD-49
+Fishnet2,16145,"North Fork, Provo R., Utah.",-111.031489,40.627522,Richardsonius balteatus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-49
+Fishnet2,37936,"North Fork, Provo R., Utah.",-111.031489,40.627522,Richardsonius balteatus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-49
+Fishnet2,37774,"Weber R., at junction with Silver Creek, Wanship.",-111.399576,40.816276,Catostomus discobolus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-60
+Fishnet2,38040,"Weber R., at junction with Silver Creek, Wanship.",-111.399576,40.816276,Cottus bairdii,"Snyder, John O.; Hubbs, Carl L.",1915,DD-60
+Fishnet2,74448,Weber River at its junction with Silver Creek at Wanship,-111.399629,40.81631,Rhinichthys cataractae,"Snyder, John O.; Hubbs, Carl L.",1915,DD-60
+Fishnet2,41700,"Weber R., at junction with Silver Creek, Wanship.",-111.399576,40.816276,Richardsonius balteatus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-60
+Fishnet2,38034,"Echo Creek, between Echo & Evanston.",-111.258519,41.073947,Cottus bairdii,"Snyder, John O.; Hubbs, Carl L.",1915,DD-62
+Fishnet2,41693,"Echo Creek, between Echo & Evanston.",-111.258519,41.073947,Rhinichthys osculus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-62
+Fishnet2,37931,"Echo Creek, between Echo & Evanston.",-111.258519,41.073947,Richardsonius balteatus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-62
+Fishnet2,37769,"Weber R., Devil's Slide.",-111.547669,41.063657,Catostomus discobolus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-63
+Fishnet2,37776,"Weber R., Devil's Slide.",-111.547669,41.063657,Catostomus discobolus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-63
+Fishnet2,41692,"Weber R., Devil's Slide.",-111.547669,41.063657,Rhinichthys osculus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-63
+Fishnet2,41701,"Weber R., Devil's Slide.",-111.547669,41.063657,Richardsonius balteatus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-63
+Fishnet2,41702,"Weber R., Devil's Slide.",-111.547669,41.063657,Richardsonius balteatus,"Snyder, John O.; Hubbs, Carl L.",1915,DD-63

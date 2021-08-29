@@ -1,0 +1,211 @@
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +                                                                +
+ +   POPULATION SIZE, MIGRATION, DIVERGENCE, ASSIGNMENT, HISTORY  +
+ +   Bayesian inference using the structured coalescent           +
+ +                                                                +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  Compiled for a SYMMETRIC multiprocessors (GrandCentral)
+  PDF output enabled [Letter-size]
+  Version 4.4.4(git:v4-series-26-ge85c6ff)   [June-1-2019]
+  Program started at   Thu May 20 03:36:30 2021
+
+
+
+
+Reading (1) Great_Salt_Lake ...
+Reading (2) Sevier_Desert ...
+Options in use:
+---------------
+
+Analysis strategy is BAYESIAN INFERENCE
+    - Population size estimation: Theta [Exponential Distribution]
+    - Geneflow estimation: Migration [Exponential Distribution]
+    - Divergence estimation: Divergence time [Normal Distribution [Shortcut] with mean and]
+                                             [and standard deviation sigma     ]
+
+Proposal distribution:
+Parameter group          Proposal type
+-----------------------  -------------------
+Population size (Theta)  Metropolis sampling
+Migration rate      (M)  Metropolis sampling
+Divergence Time (D)  Metropolis sampling
+Divergence time spread (STD) Metropolis sampling
+Genealogy                Metropolis-Hastings
+
+
+Prior distribution (Proposal-delta will be tuned to acceptance frequence 0.440000):
+Parameter group            Prior type   Minimum    Mean(*)    Maximum    Delta      Bins   Updatefreq
+-------------------------  ------------ ---------- ---------- ---------- ---------- ------ -------
+Population size (Theta_1)      Uniform  0.000000   0.010000   0.100000   0.010000    1500  0.08333
+Population size (Theta_2)      Uniform  0.000000   0.010000   0.100000   0.010000    1500  0.08333
+Migration 2 to 1   (M)         Uniform  0.000000  100.000000 1000.00000 100.000000   1500  0.08333
+Migration 1 to 2   (M)         Uniform  0.000000  100.000000 1000.00000 100.000000   1500  0.08333
+Ancestor 1 to 2 (D_time)      Uniform  0.000000   0.010000   0.500000   0.050000    1500  0.08333
+Ancestor 1 to 2 (S_time)      Uniform  0.000000   0.010000   0.500000   0.050000    1500  0.08333
+
+
+
+
+Inheritance scalers in use for Thetas (specified scalars=1)
+1.00 
+[Each Theta uses the (true) inheritance scalar of the first locus as a reference]
+
+
+Pseudo-random number generator: Mersenne-Twister                                
+Random number seed (with internal timer)           2584010057
+
+Start parameters:
+   First genealogy was started using a random tree
+   Start parameter values were generated
+Connection matrix:
+m = average (average over a group of Thetas or M,
+s = symmetric migration M, S = symmetric 4Nm,
+0 = zero, and not estimated,
+* = migration free to vary, Thetas are on diagonal
+d = row population split off column population
+D = split and then migration
+   1 Great_Salt     * * 
+   2 Sevier_Des     D * 
+
+
+
+Mutation rate is constant 
+
+Markov chain settings:
+   Long chains (long-chains):                              1
+      Steps sampled (inc*samples*rep):              20000000
+      Steps recorded (sample*rep):                     20000
+   Combining over replicates:                              2
+   Static heating scheme
+      4 chains with  temperatures
+       1.00, 1.50, 3.00,1000000.00
+      Swapping interval is 1
+   Burn-in per replicate (samples*inc):              1000000
+
+Print options:
+   Data file:                                         infile
+   Haplotyping is turned on:                              NO
+   Output file (ASCII text):                         outfile
+   Output file (PDF):                            outfile.pdf
+   Posterior distribution:                         bayesfile
+   Print data:                                            No
+   Print genealogies:                                     No
+Base Frequencies
+------------------------------------------------------------
+Locus     Sublocus  Nucleotide                        Model parameters/
+                    ------------------------------ 
+                    A       C       G       T(U)
+----------------------------------------------------------------------
+   1         1      0.2500  0.2500  0.2500  0.2500
+
+Locus Sublocus Region type     Rate of change    Probability  Patch size
+--------------------------------------------------------------------------
+   1       1        1           1.000            1.000            1.000
+
+03:36:30   Burn-in of 1000000 steps (Locus: 1/1, Replicate: 1/2) 
+04:14:59   Sampling: prognosed end of run is 10:39 May 20 2021 [0.090909 done])
+           Parameter     Acceptance Current      PropWindow AutoCorr ESS
+           ------------  ---------- ------------ ---------- -------- --------
+           Theta_1           0.354       0.01482      0.015    0.431   793.73
+           Theta_2           0.288       0.00733      0.048    0.291  1095.73
+           M_2->1            0.328       8.76515    416.719    0.342   979.05
+           M_1->2            0.448     496.18524   1000.000    0.311  1049.01
+           D_1->2            0.904       0.21746      0.500    0.020  1918.98
+           S_1->2            0.923       0.08961      0.500   -0.002  2004.82
+           Genealogies       0.309    -871.49373      ---      0.505   657.08
+04:34:10   Sampling: prognosed end of run is 10:39 May 20 2021 [0.136364 done])
+           Parameter     Acceptance Current      PropWindow AutoCorr ESS
+           ------------  ---------- ------------ ---------- -------- --------
+           Theta_1           0.354       0.01209      0.015    0.471  1435.20
+           Theta_2           0.286       0.01208      0.048    0.345  1946.90
+           M_2->1            0.314     216.65850    416.719    0.503  1321.51
+           M_1->2            0.443      56.44094   1000.000    0.458  1484.27
+           D_1->2            0.940       0.49941      0.500    0.022  3818.66
+           S_1->2            0.952       0.27743      0.500    0.019  3847.90
+           Genealogies       0.307    -867.65843      ---      0.535  1209.08
+04:53:18   Sampling: prognosed end of run is 10:38 May 20 2021 [0.181818 done])
+           Parameter     Acceptance Current      PropWindow AutoCorr ESS
+           ------------  ---------- ------------ ---------- -------- --------
+           Theta_1           0.352       0.01704      0.015    0.468  2173.87
+           Theta_2           0.286       0.01435      0.048    0.331  3011.19
+           M_2->1            0.327       3.43303    416.719    0.507  1961.28
+           M_1->2            0.435     313.68852   1000.000    0.495  2023.23
+           D_1->2            0.951       0.25320      0.500    0.035  5586.02
+           S_1->2            0.960       0.01761      0.500    0.010  5868.67
+           Genealogies       0.307    -871.20763      ---      0.543  1772.38
+05:12:21   Sampling: prognosed end of run is 10:38 May 20 2021 [0.227273 done])
+           Parameter     Acceptance Current      PropWindow AutoCorr ESS
+           ------------  ---------- ------------ ---------- -------- --------
+           Theta_1           0.353       0.01458      0.015    0.456  2988.24
+           Theta_2           0.286       0.00573      0.048    0.332  4011.39
+           M_2->1            0.323      31.48267    416.719    0.503  2645.51
+           M_1->2            0.439     355.02997   1000.000    0.474  2855.08
+           D_1->2            0.953       0.01219      0.500    0.036  7442.00
+           S_1->2            0.962       0.34120      0.500    0.001  7985.53
+           Genealogies       0.307    -874.60415      ---      0.542  2374.99
+05:31:25   Sampling: prognosed end of run is 10:37 May 20 2021 [0.272727 done])
+           Parameter     Acceptance Current      PropWindow AutoCorr ESS
+           ------------  ---------- ------------ ---------- -------- --------
+           Theta_1           0.352       0.01586      0.015    0.448  3807.70
+           Theta_2           0.285       0.00744      0.048    0.331  5022.87
+           M_2->1            0.324      41.70266    416.719    0.490  3417.32
+           M_1->2            0.441     443.09250   1000.000    0.454  3756.54
+           D_1->2            0.956       0.00461      0.500    0.036  9300.44
+           S_1->2            0.964       0.09028      0.500    0.009  9816.00
+           Genealogies       0.307    -874.03499      ---      0.546  2937.49
+05:31:27   Sampling Temp[4]: (1,1.5,3,1e+06) Acc(0.31,0.33,0.36,1.00) Swap(252546,7178,0)
+                Param={ 0.01369 0.01008 19.25 88.31 0.2295 0.4577}
+05:31:27   Burn-in of 1000000 steps (Locus: 1/1, Replicate: 2/2) 
+06:11:04   Sampling: prognosed end of run is 10:41 May 20 2021 [0.363636 done])
+           Parameter     Acceptance Current      PropWindow AutoCorr ESS
+           ------------  ---------- ------------ ---------- -------- --------
+           Theta_1           0.994       0.01429      0.000    0.992     8.03
+           Theta_2           0.996       0.00970      0.000    0.995     4.79
+           M_2->1            0.993      34.10824      1.000    0.994     6.03
+           M_1->2            0.480     122.71216   1000.000    0.513   642.72
+           D_1->2            0.828       0.39750      0.500    0.076  1712.82
+           S_1->2            0.861       0.49149      0.500   -0.024  2091.43
+           Genealogies       0.304    -862.78995      ---      0.566   552.30
+06:30:37   Sampling: prognosed end of run is 10:42 May 20 2021 [0.409091 done])
+           Parameter     Acceptance Current      PropWindow AutoCorr ESS
+           ------------  ---------- ------------ ---------- -------- --------
+           Theta_1           0.994       0.01445      0.000    0.990    20.55
+           Theta_2           0.995       0.00684      0.000    0.994    11.07
+           M_2->1            0.993      69.47218      1.000    0.995     9.45
+           M_1->2            0.477     206.47302   1000.000    0.449  1517.72
+           D_1->2            0.860       0.08427      0.500    0.110  3198.15
+           S_1->2            0.886       0.34879      0.500    0.003  3965.68
+           Genealogies       0.305    -866.55491      ---      0.541  1190.08
+06:50:26   Sampling: prognosed end of run is 10:43 May 20 2021 [0.454545 done])
+           Parameter     Acceptance Current      PropWindow AutoCorr ESS
+           ------------  ---------- ------------ ---------- -------- --------
+           Theta_1           0.994       0.01005      0.000    0.991    28.36
+           Theta_2           0.995       0.01345      0.000    0.997     9.52
+           M_2->1            0.994      58.96725      1.000    0.996    13.13
+           M_1->2            0.450     188.17742   1000.000    0.487  2069.10
+           D_1->2            0.874       0.40252      0.500    0.090  4998.85
+           S_1->2            0.897       0.26705      0.500    0.005  5930.93
+           Genealogies       0.306    -887.92882      ---      0.538  1798.16
+07:07:35   Sampling: prognosed end of run is 10:38 May 20 2021 [0.500000 done])
+           Parameter     Acceptance Current      PropWindow AutoCorr ESS
+           ------------  ---------- ------------ ---------- -------- --------
+           Theta_1           0.994       0.01504      0.000    0.992    31.90
+           Theta_2           0.995       0.01307      0.000    0.997    13.10
+           M_2->1            0.993       1.00851      1.000    0.995    20.20
+           M_1->2            0.455     228.53157   1000.000    0.461  2946.63
+           D_1->2            0.867       0.00747      0.500    0.096  6599.30
+           S_1->2            0.892       0.11692      0.500    0.017  7727.11
+           Genealogies       0.307    -874.46399      ---      0.533  2438.30
+07:24:04   Sampling: prognosed end of run is 10:33 May 20 2021 [0.545455 done])
+           Parameter     Acceptance Current      PropWindow AutoCorr ESS
+           ------------  ---------- ------------ ---------- -------- --------
+           Theta_1           0.993       0.00817      0.000    0.992    41.46
+           Theta_2           0.995       0.01089      0.000    0.997    15.85
+           M_2->1            0.994      52.99159      1.000    0.995    26.69
+           M_1->2            0.454     102.59509   1000.000    0.457  3721.62
+           D_1->2            0.852       0.34288      0.500    0.103  8122.66
+           S_1->2            0.879       0.06687      0.500    0.032  9369.20
+           Genealogies       0.307    -860.22561      ---      0.527  3098.01
+07:24:05   Sampling Temp[4]: (1,1.5,3,1e+06) Acc(0.31,0.33,0.36,1.00) Swap(225339,9011,0)
+                Param={ 0.008755 0.01061 51.99 302.6 0.06481 0.1141}
+07:24:06   Program finished

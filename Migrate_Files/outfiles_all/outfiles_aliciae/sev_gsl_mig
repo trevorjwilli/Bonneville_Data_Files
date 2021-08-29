@@ -1,0 +1,238 @@
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Lepidomeda aliciae dataset                                       
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +                                                                +
+ +   POPULATION SIZE, MIGRATION, DIVERGENCE, ASSIGNMENT, HISTORY  +
+ +   Bayesian inference using the structured coalescent           +
+ +                                                                +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  Compiled for a SYMMETRIC multiprocessors (GrandCentral)
+  PDF output enabled [Letter-size]
+  Version 4.4.4(git:v4-series-26-ge85c6ff)   [June-1-2019]
+  Program started at   Fri May 21 23:24:18 2021
+         finished at Sat May 22 04:24:32 2021
+                          
+
+
+Options in use:
+---------------
+
+Analysis strategy is BAYESIAN INFERENCE
+    - Population size estimation: Theta [Exponential Distribution]
+    - Geneflow estimation: Migration [Exponential Distribution]
+    - Divergence estimation: Divergence time [Normal Distribution [Shortcut] with mean and]
+                                             [and standard deviation sigma     ]
+
+Proposal distribution:
+Parameter group          Proposal type
+-----------------------  -------------------
+Population size (Theta)  Metropolis sampling
+Migration rate      (M)  Metropolis sampling
+Divergence Time (D)  Metropolis sampling
+Divergence time spread (STD) Metropolis sampling
+Genealogy                Metropolis-Hastings
+
+
+Prior distribution (Proposal-delta will be tuned to acceptance frequence 0.440000):
+Parameter group            Prior type   Minimum    Mean(*)    Maximum    Delta      Bins   Updatefreq
+-------------------------  ------------ ---------- ---------- ---------- ---------- ------ -------
+Population size (Theta_1)      Uniform  0.000000   0.050000   0.100000   0.010000    1500  0.08333
+Population size (Theta_2)      Uniform  0.000000   0.050000   0.100000   0.010000    1500  0.08333
+Migration 2 to 1   (M)         Uniform  0.000000  500.000000 1000.00000 100.000000   1500  0.08333
+Migration 1 to 2   (M)         Uniform  0.000000  500.000000 1000.00000 100.000000   1500  0.08333
+Ancestor 2 to 1 (D_time)      Uniform  0.000000   0.250000   0.500000   0.050000    1500  0.08333
+Ancestor 2 to 1 (S_time)      Uniform  0.000000   0.250000   0.500000   0.050000    1500  0.08333
+
+
+
+
+Inheritance scalers in use for Thetas (specified scalars=3)
+All inheritance scalars are the same [1.0]
+
+[Each Theta uses the (true) inheritance scalar of the first locus as a reference]
+
+
+Pseudo-random number generator: Mersenne-Twister                                
+Random number seed (with internal timer)            998607945
+
+Start parameters:
+   First genealogy was started using a random tree
+   Start parameter values were generated
+Connection matrix:
+m = average (average over a group of Thetas or M,
+s = symmetric migration M, S = symmetric 4Nm,
+0 = zero, and not estimated,
+* = migration free to vary, Thetas are on diagonal
+d = row population split off column population
+D = split and then migration
+   1 Great_Salt     * D 
+   2 Sevier_Des     * * 
+
+
+
+Mutation rate is constant for all loci
+
+Markov chain settings:
+   Long chains (long-chains):                              1
+      Steps sampled (inc*samples*rep):              20000000
+      Steps recorded (sample*rep):                     20000
+   Combining over replicates:                              2
+   Static heating scheme
+      4 chains with  temperatures
+       1.00, 1.50, 3.00,1000000.00
+      Swapping interval is 1
+   Burn-in per replicate (samples*inc):              1000000
+
+Print options:
+   Data file:                                         infile
+   Haplotyping is turned on:                              NO
+   Output file (ASCII text):                         outfile
+   Output file (PDF):                            outfile.pdf
+   Posterior distribution:                         bayesfile
+   Print data:                                            No
+   Print genealogies:                                     No
+
+Summary of data:
+Title:                            Lepidomeda aliciae dataset
+Data file:                                            infile
+Datatype:                                     Haplotype data
+Number of loci:                                            3
+Mutationmodel:
+ Locus  Sublocus  Mutationmodel   Mutationmodel parameter
+-----------------------------------------------------------------
+     1         1 Felsenstein 84  [Bf:0.25 0.29 0.17 0.30, t/t ratio=2.000]
+     2         1 Felsenstein 84  [Bf:0.31 0.15 0.19 0.35, t/t ratio=2.000]
+     3         1 Felsenstein 84  [Bf:0.26 0.22 0.20 0.31, t/t ratio=2.000]
+
+
+Sites per locus
+---------------
+Locus    Sites
+     1     1109
+     2     849
+     3     448
+
+Population                   Locus   Gene copies    
+----------------------------------------------------
+  1 Great_Salt_Lake              1        10
+  1                              2         4
+  1                              3         4
+  2 Sevier_Desert                1        13
+  2                              2        11
+  2                              3        11
+    Total of all populations     1        23
+                                 2        15
+                                 3        15
+
+
+
+
+Bayesian estimates
+==================
+
+Locus Parameter        2.5%      25.0%    mode     75.0%   97.5%     median   mean
+-----------------------------------------------------------------------------------
+    1  Theta_1         0.00013  0.00040  0.00063  0.00100  0.00180  0.00090  0.00092
+    1  Theta_2         0.00060  0.00100  0.00217  0.00493  0.01140  0.00370  0.00538
+    1  M_2->1          0.00000  0.00000  1.00000 62.66667 380.00000 115.66667 169.11984
+    1  M_1->2         448.6667 596.0000 598.3333 598.6667 656.6667 539.6667 529.9652
+    1  D_2->1          0.34967  0.35033  0.35117  0.35133  0.35200  0.25083  0.25063
+    1  S_2->1          0.21267  0.21400  0.21483  0.21567  0.21567  0.25050  0.25035
+    2  Theta_1         0.00000  0.00020  0.00050  0.00073  0.00193  0.00070  0.00090
+    2  Theta_2         0.00040  0.00080  0.00157  0.00293  0.01007  0.00250  0.00422
+    2  M_2->1          0.00000  6.00000 31.66667 69.33333 404.66667 223.00000 298.13692
+    2  M_1->2         516.0000 976.6667 999.6667 999.3333 999.3333 687.6667 629.0346
+    2  D_2->1          0.27333  0.27467  0.27517  0.27533  0.27533  0.25183  0.25128
+    2  S_2->1          0.07633  0.08200  0.08250  0.08267  0.08967  0.24850  0.24844
+    3  Theta_1         0.00093  0.00207  0.00397  0.01180  0.02427  0.01843  0.02607
+    3  Theta_2         0.00120  0.00427  0.00583  0.00887  0.02387  0.00843  0.01303
+    3  M_2->1         698.6667 931.3333 936.3333 944.0000 999.3333 651.0000 588.5981
+    3  M_1->2          0.00000  0.00000 17.66667 119.33333 335.33333 187.66667 312.59720
+    3  D_2->1          0.30867  0.31167  0.31217  0.31233  0.33600  0.24883  0.24828
+    3  S_2->1          0.31067  0.31067  0.31117  0.31133  0.31733  0.25117  0.25009
+  All  Theta_1         0.00000  0.00100  0.00170  0.00220  0.00287  0.00163  0.00176
+  All  Theta_2         0.00087  0.00240  0.00323  0.00413  0.00733  0.00357  0.00382
+  All  M_2->1          2.00000  2.00000 29.00000 62.00000 62.00000 71.00000 97.68148
+  All  M_1->2          0.00000 21.33333 34.33333 52.66667 373.33333 157.00000 195.28263
+  All  D_2->1          0.00000  0.02900  0.06883  0.07867  0.08600  0.12217  0.12277
+  All  S_2->1          0.00000  0.02400  0.04317  0.06633  0.15900  0.12050  0.12089
+-----------------------------------------------------------------------------------
+
+
+
+Log-Probability of the data given the model (marginal likelihood = log(P(D|thisModel))
+--------------------------------------------------------------------
+[Use this value for Bayes factor calculations:
+BF = Exp[log(P(D|thisModel) - log(P(D|otherModel)]
+shows the support for thisModel]
+
+
+
+Locus      Raw Thermodynamic score(1a)  Bezier approximated score(1b)      Harmonic mean(2)
+------------------------------------------------------------------------------------------
+      1              -1818.41                      -1730.57               -1713.86
+      2              -1264.86                      -1215.50               -1205.06
+      3               -682.71                       -658.57                -647.86
+---------------------------------------------------------------------------------------
+  All                -3775.29                      -3613.93               -3599.54
+[Scaling factor = -9.303753]
+
+
+(1a) Thermodynamic integration: log(Prob(D|Model)): Good approximation with many temperatures
+(1b) Bezier-approximated Thermodynamic integration: when using few temperatures USE THIS!
+(2)  Harmonic mean approximation: Overestimates the marginal likelihood, poor variance
+
+
+
+MCMC run characteristics
+========================
+
+
+
+
+Acceptance ratios for all parameters and the genealogies
+---------------------------------------------------------------------
+
+Parameter           Accepted changes               Ratio
+Theta_1                2839970/5000948           0.56789
+Theta_2                2933467/4999212           0.58679
+M_2->1                 2829231/4998396           0.56603
+M_1->2                 2831723/4998599           0.56650
+D_2->1                  4969786/4998782           0.99420
+S_2->1                  8421671/5000529           1.68416
+Genealogies            8421671/30003534           0.28069
+
+
+
+Autocorrelation for all parameters and the genealogies
+------------------------------------------------------------------------
+
+Parameter           Autocorrelation                Effective Sample size
+Theta_1                   0.495                 24479.260
+Theta_2                   0.566                 18669.256
+M_2->1                   0.340                 30373.803
+M_1->2                   0.531                 18732.804
+D_2->1                    0.005                 59399.627
+S_2->1                    0.004                 59509.639
+Genealogies               0.093                  49879.675
+(*) averaged over loci.
+
+POTENTIAL PROBLEMS
+------------------------------------------------------------------------------------------
+This section reports potential problems with your run, but such reporting is often not 
+very accurate. Whith many parameters in a multilocus analysis, it is very common that 
+some parameters for some loci will not be very informative, triggering suggestions (for 
+example to increase the prior range) that are not sensible. This suggestion tool will 
+improve with time, therefore do not blindly follow its suggestions. If some parameters 
+are flagged, inspect the tables carefully and judge wether an action is required. For 
+example, if you run a Bayesian inference with sequence data, for macroscopic species 
+there is rarely the need to increase the prior for Theta beyond 0.1; but if you use 
+microsatellites it is rather common that your prior distribution for Theta should have a 
+range from 0.0 to 100 or more. With many populations (>3) it is also very common that 
+some migration routes are estimated poorly because the data contains little or no 
+information for that route. Increasing the range will not help in such situations, 
+reducing number of parameters may help in such situations.
+------------------------------------------------------------------------------------------
+Param 4 (Locus 2): Upper prior boundary seems too low! 
+Param 3 (Locus 3): Upper prior boundary seems too low! 
+------------------------------------------------------------------------------------------

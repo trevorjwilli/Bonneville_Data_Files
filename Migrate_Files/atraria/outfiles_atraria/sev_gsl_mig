@@ -1,0 +1,206 @@
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Utah Chub CR                                                     
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +                                                                +
+ +   POPULATION SIZE, MIGRATION, DIVERGENCE, ASSIGNMENT, HISTORY  +
+ +   Bayesian inference using the structured coalescent           +
+ +                                                                +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  Compiled for a SYMMETRIC multiprocessors (GrandCentral)
+  PDF output enabled [Letter-size]
+  Version 4.4.4(git:v4-series-26-ge85c6ff)   [June-1-2019]
+  Program started at   Wed May 19 21:07:19 2021
+         finished at Thu May 20 00:32:57 2021
+                          
+
+
+Options in use:
+---------------
+
+Analysis strategy is BAYESIAN INFERENCE
+    - Population size estimation: Theta [Exponential Distribution]
+    - Geneflow estimation: Migration [Exponential Distribution]
+    - Divergence estimation: Divergence time [Normal Distribution [Shortcut] with mean and]
+                                             [and standard deviation sigma     ]
+
+Proposal distribution:
+Parameter group          Proposal type
+-----------------------  -------------------
+Population size (Theta)  Metropolis sampling
+Migration rate      (M)  Metropolis sampling
+Divergence Time (D)  Metropolis sampling
+Divergence time spread (STD) Metropolis sampling
+Genealogy                Metropolis-Hastings
+
+
+Prior distribution (Proposal-delta will be tuned to acceptance frequence 0.440000):
+Parameter group            Prior type   Minimum    Mean(*)    Maximum    Delta      Bins   Updatefreq
+-------------------------  ------------ ---------- ---------- ---------- ---------- ------ -------
+Population size (Theta_1)      Uniform  0.000000   0.010000   0.100000   0.010000    1500  0.04545
+Population size (Theta_2)      Uniform  0.000000   0.010000   0.100000   0.010000    1500  0.04545
+Population size (Theta_3)      Uniform  0.000000   0.010000   0.100000   0.010000    1500  0.04545
+Migration 2 to 1   (M)         Uniform  0.000000  100.000000 1000.00000 100.000000   1500  0.04545
+Migration 1 to 2   (M)         Uniform  0.000000  100.000000 1000.00000 100.000000   1500  0.04545
+Migration 3 to 2   (M)         Uniform  0.000000  100.000000 1000.00000 100.000000   1500  0.04545
+Migration 2 to 3   (M)         Uniform  0.000000  100.000000 1000.00000 100.000000   1500  0.04545
+Ancestor 2 to 1 (D_time)      Uniform  0.000000   0.010000   0.500000   0.050000    1500  0.04545
+Ancestor 2 to 1 (S_time)      Uniform  0.000000   0.010000   0.500000   0.050000    1500  0.04545
+Ancestor 3 to 2 (D_time)      Uniform  0.000000   0.010000   0.500000   0.050000    1500  0.04545
+Ancestor 3 to 2 (S_time)      Uniform  0.000000   0.010000   0.500000   0.050000    1500  0.04545
+
+
+
+
+Inheritance scalers in use for Thetas (specified scalars=1)
+1.00 
+[Each Theta uses the (true) inheritance scalar of the first locus as a reference]
+
+
+Pseudo-random number generator: Mersenne-Twister                                
+Random number seed (with internal timer)           3629724723
+
+Start parameters:
+   First genealogy was started using a random tree
+   Start parameter values were generated
+Connection matrix:
+m = average (average over a group of Thetas or M,
+s = symmetric migration M, S = symmetric 4Nm,
+0 = zero, and not estimated,
+* = migration free to vary, Thetas are on diagonal
+d = row population split off column population
+D = split and then migration
+   1 GSL            * D 0 
+   2 GSLD           * * D 
+   3 SEV            0 * * 
+
+
+
+Mutation rate is constant 
+
+Markov chain settings:
+   Long chains (long-chains):                              1
+      Steps sampled (inc*samples*rep):              20000000
+      Steps recorded (sample*rep):                     20000
+   Combining over replicates:                              2
+   Static heating scheme
+      4 chains with  temperatures
+       1.00, 1.50, 3.00,1000000.00
+      Swapping interval is 1
+   Burn-in per replicate (samples*inc):              1000000
+
+Print options:
+   Data file:                                         infile
+   Haplotyping is turned on:                              NO
+   Output file (ASCII text):                         outfile
+   Output file (PDF):                            outfile.pdf
+   Posterior distribution:                         bayesfile
+   Print data:                                            No
+   Print genealogies:                                     No
+
+Summary of data:
+Title:                                          Utah Chub CR
+Data file:                                            infile
+Datatype:                                     Haplotype data
+Number of loci:                                            1
+Mutationmodel:
+ Locus  Sublocus  Mutationmodel   Mutationmodel parameter
+-----------------------------------------------------------------
+     1         1 HKY             [Bf:0.32 0.21 0.14 0.32, kappa=4.610]
+
+
+Sites per locus
+---------------
+Locus    Sites
+     1     935
+
+Population                   Locus   Gene copies    
+----------------------------------------------------
+  1 GSL                          1        22
+  2 GSLD                         1        15
+  3 SEV                          1        10
+    Total of all populations     1        47
+
+
+
+
+Bayesian estimates
+==================
+
+Locus Parameter        2.5%      25.0%    mode     75.0%   97.5%     median   mean
+-----------------------------------------------------------------------------------
+    1  Theta_1         0.00040  0.00040  0.00150  0.00253  0.00253  0.00537  0.00153
+    1  Theta_2         0.00047  0.00047  0.00170  0.00280  0.00280  0.00550  0.00169
+    1  Theta_3         0.00040  0.00040  0.00097  0.00140  0.00140  0.00510  0.00096
+    1  M_2->1          78.6667 314.6667 404.3333 485.3333 575.3333 369.6667 763.5008
+    1  M_1->2          58.6667 266.6667 386.3333 459.3333 555.3333 331.0000 626.6201
+    1  M_3->2          0.00000  0.00000  0.33333 220.00000 220.00000 235.66667 457.70862
+    1  M_2->3           0.0000 204.0000 379.6667 454.6667 537.3333 293.0000 568.5716
+    1  D_2->1          0.00000  0.00000  0.00017  0.10933  0.20167  0.12083  0.24731
+    1  S_2->1          0.00000  0.07367  0.16617  0.18867  0.21133  0.12583  0.24931
+    1  D_3->2          0.00000  0.02233  0.07083  0.14633  0.18767  0.12383  0.24683
+    1  S_3->2          0.00000  0.05500  0.08250  0.13333  0.23700  0.12717  0.24854
+-----------------------------------------------------------------------------------
+
+
+
+Log-Probability of the data given the model (marginal likelihood = log(P(D|thisModel))
+--------------------------------------------------------------------
+[Use this value for Bayes factor calculations:
+BF = Exp[log(P(D|thisModel) - log(P(D|otherModel)]
+shows the support for thisModel]
+
+
+
+Locus      Raw Thermodynamic score(1a)  Bezier approximated score(1b)      Harmonic mean(2)
+------------------------------------------------------------------------------------------
+  All                -1863.88                      -1549.32               -1467.15
+[Scaling factor = 0.000000]
+
+
+(1a) Thermodynamic integration: log(Prob(D|Model)): Good approximation with many temperatures
+(1b) Bezier-approximated Thermodynamic integration: when using few temperatures USE THIS!
+(2)  Harmonic mean approximation: Overestimates the marginal likelihood, poor variance
+
+
+
+MCMC run characteristics
+========================
+
+
+
+
+Acceptance ratios for all parameters and the genealogies
+---------------------------------------------------------------------
+
+Parameter           Accepted changes               Ratio
+Theta_1                 396801/910174            0.43596
+Theta_2                 527843/908675            0.58089
+Theta_3                 550548/909714            0.60519
+M_2->1                  580010/908634            0.63833
+M_1->2                  663859/908715            0.73055
+M_3->2                  674052/910412            0.74038
+M_2->3                  725338/907003            0.79971
+D_2->1                   899671/908754            0.99000
+S_2->1                   903514/908976            0.99399
+D_3->2                   903514/907352            0.99577
+S_3->2                  1743239/909829            1.91601
+Genealogies            1743239/10001762           0.17429
+
+
+
+Autocorrelation for all parameters and the genealogies
+------------------------------------------------------------------------
+
+Parameter           Autocorrelation                Effective Sample size
+Theta_1                   0.542                  5956.593
+Theta_2                   0.636                  5410.134
+Theta_3                   0.588                  6331.018
+M_2->1                   0.233                 12436.218
+M_1->2                   0.273                 11412.842
+M_3->2                   0.334                  9992.626
+M_2->3                   0.211                 13032.935
+D_2->1                    0.017                 19346.964
+S_2->1                   -0.003                 20115.128
+D_3->2                   -0.006                 20226.789
+S_3->2                   -0.001                 20058.719
+Genealogies               0.515                   6405.318

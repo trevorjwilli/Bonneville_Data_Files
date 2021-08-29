@@ -1,0 +1,191 @@
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Pantosteus platyrhynchus                                         
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +                                                                +
+ +   POPULATION SIZE, MIGRATION, DIVERGENCE, ASSIGNMENT, HISTORY  +
+ +   Bayesian inference using the structured coalescent           +
+ +                                                                +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  Compiled for a SYMMETRIC multiprocessors (GrandCentral)
+  PDF output enabled [Letter-size]
+  Version 4.4.4(git:v4-series-26-ge85c6ff)   [June-1-2019]
+  Program started at   Fri May 21 15:56:40 2021
+         finished at Fri May 21 16:54:48 2021
+                          
+
+
+Options in use:
+---------------
+
+Analysis strategy is BAYESIAN INFERENCE
+    - Population size estimation: Theta [Exponential Distribution]
+    - Geneflow estimation: Migration [Exponential Distribution]
+    - Divergence estimation: Divergence time [Normal Distribution [Shortcut] with mean and]
+                                             [and standard deviation sigma     ]
+
+Proposal distribution:
+Parameter group          Proposal type
+-----------------------  -------------------
+Population size (Theta)  Metropolis sampling
+Migration rate      (M)  Metropolis sampling
+Divergence Time (D)  Metropolis sampling
+Divergence time spread (STD) Metropolis sampling
+Genealogy                Metropolis-Hastings
+
+
+Prior distribution (Proposal-delta will be tuned to acceptance frequence 0.440000):
+Parameter group            Prior type   Minimum    Mean(*)    Maximum    Delta      Bins   Updatefreq
+-------------------------  ------------ ---------- ---------- ---------- ---------- ------ -------
+Population size (Theta_1)      Uniform  0.000000   0.050000   0.100000   0.010000    1500  0.12500
+Population size (Theta_2)      Uniform  0.000000   0.050000   0.100000   0.010000    1500  0.12500
+Ancestor 1 to 2 (D_time)      Uniform  0.000000   0.250000   0.500000   0.050000    1500  0.12500
+Ancestor 1 to 2 (S_time)      Uniform  0.000000   0.250000   0.500000   0.050000    1500  0.12500
+
+
+
+
+Inheritance scalers in use for Thetas (specified scalars=1)
+1.00 
+[Each Theta uses the (true) inheritance scalar of the first locus as a reference]
+
+
+Pseudo-random number generator: Mersenne-Twister                                
+Random number seed (with internal timer)           4184247350
+
+Start parameters:
+   First genealogy was started using a random tree
+   Start parameter values were generated
+Connection matrix:
+m = average (average over a group of Thetas or M,
+s = symmetric migration M, S = symmetric 4Nm,
+0 = zero, and not estimated,
+* = migration free to vary, Thetas are on diagonal
+d = row population split off column population
+D = split and then migration
+   1 Great_Salt     * 0 
+   2 Sevier_Des     d * 
+
+
+
+Mutation rate is constant 
+
+Markov chain settings:
+   Long chains (long-chains):                              1
+      Steps sampled (inc*samples*rep):              20000000
+      Steps recorded (sample*rep):                     20000
+   Combining over replicates:                              2
+   Static heating scheme
+      4 chains with  temperatures
+       1.00, 1.50, 3.00,1000000.00
+      Swapping interval is 1
+   Burn-in per replicate (samples*inc):              1000000
+
+Print options:
+   Data file:                                         infile
+   Haplotyping is turned on:                              NO
+   Output file (ASCII text):                         outfile
+   Output file (PDF):                            outfile.pdf
+   Posterior distribution:                         bayesfile
+   Print data:                                            No
+   Print genealogies:                                     No
+
+Summary of data:
+Title:                              Pantosteus platyrhynchus
+Data file:                                            infile
+Datatype:                                     Haplotype data
+Number of loci:                                            1
+Mutationmodel:
+ Locus  Sublocus  Mutationmodel   Mutationmodel parameter
+-----------------------------------------------------------------
+     1         1 HKY             [Bf:0.28 0.27 0.16 0.30, kappa=11.220]
+     1         2 HKY             [Bf:0.28 0.28 0.17 0.27, kappa=11.220]
+     1         3 HKY             [Bf:0.23 0.28 0.21 0.28, kappa=11.220]
+     1         4 HKY             [Bf:0.22 0.30 0.20 0.28, kappa=11.220]
+     1         5 HKY             [Bf:0.26 0.28 0.19 0.28, kappa=11.220]
+     1         6 HKY             [Bf:0.24 0.28 0.19 0.28, kappa=11.220]
+
+
+Sites per locus
+---------------
+Locus    Sites
+     1     863 2357 975 1047 1673 1140
+
+Population                   Locus   Gene copies    
+----------------------------------------------------
+  1 Great_Salt_lake              1         2
+  1 Great_Salt_lake              1         2
+  1 Great_Salt_lake              1         2
+  1 Great_Salt_lake              1         2
+  1 Great_Salt_lake              1         2
+  1 Great_Salt_lake              1         2
+  2 Sevier_Desert                1         3
+  2 Sevier_Desert                1         3
+  2 Sevier_Desert                1         3
+  2 Sevier_Desert                1         3
+  2 Sevier_Desert                1         3
+  2 Sevier_Desert                1         3
+    Total of all populations     1        30
+
+
+
+
+Bayesian estimates
+==================
+
+Locus Parameter        2.5%      25.0%    mode     75.0%   97.5%     median   mean
+-----------------------------------------------------------------------------------
+    1  Theta_1         0.00000  0.00000  0.00003  0.00500  0.01660  0.00503  0.00360
+    1  Theta_2         0.00207  0.00207  0.01097  0.01967  0.01967  0.01523  0.02230
+    1  D_1->2          0.00000  0.00000  0.00017  0.07567  0.23100  0.07583  0.16097
+    1  S_1->2          0.00000  0.08600  0.18583  0.20333  0.28333  0.13717  0.26950
+-----------------------------------------------------------------------------------
+
+
+
+Log-Probability of the data given the model (marginal likelihood = log(P(D|thisModel))
+--------------------------------------------------------------------
+[Use this value for Bayes factor calculations:
+BF = Exp[log(P(D|thisModel) - log(P(D|otherModel)]
+shows the support for thisModel]
+
+
+
+Locus      Raw Thermodynamic score(1a)  Bezier approximated score(1b)      Harmonic mean(2)
+------------------------------------------------------------------------------------------
+  All               -13875.90                     -12817.08              -12765.43
+[Scaling factor = 0.000000]
+
+
+(1a) Thermodynamic integration: log(Prob(D|Model)): Good approximation with many temperatures
+(1b) Bezier-approximated Thermodynamic integration: when using few temperatures USE THIS!
+(2)  Harmonic mean approximation: Overestimates the marginal likelihood, poor variance
+
+
+
+MCMC run characteristics
+========================
+
+
+
+
+Acceptance ratios for all parameters and the genealogies
+---------------------------------------------------------------------
+
+Parameter           Accepted changes               Ratio
+Theta_1                1260176/2500046           0.50406
+Theta_2                1373536/2499591           0.54950
+D_1->2                  1858351/2500622           0.74316
+S_1->2                  1099595/2496642           0.44043
+Genealogies            1099595/10003099           0.10993
+
+
+
+Autocorrelation for all parameters and the genealogies
+------------------------------------------------------------------------
+
+Parameter           Autocorrelation                Effective Sample size
+Theta_1                   0.455                  7641.884
+Theta_2                  -0.007                 20269.628
+D_1->2                    0.005                 19824.158
+S_1->2                    0.005                 19781.157
+Genealogies               0.014                  19453.419

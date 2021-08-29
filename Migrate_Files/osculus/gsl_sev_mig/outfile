@@ -1,0 +1,238 @@
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Rhinichthys osculus dataset                                      
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +                                                                +
+ +   POPULATION SIZE, MIGRATION, DIVERGENCE, ASSIGNMENT, HISTORY  +
+ +   Bayesian inference using the structured coalescent           +
+ +                                                                +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  Compiled for a SYMMETRIC multiprocessors (GrandCentral)
+  PDF output enabled [Letter-size]
+  Version 4.4.4(git:v4-series-26-ge85c6ff)   [June-1-2019]
+  Program started at   Fri May 21 08:48:22 2021
+         finished at Fri May 21 15:48:20 2021
+                          
+
+
+Options in use:
+---------------
+
+Analysis strategy is BAYESIAN INFERENCE
+    - Population size estimation: Theta [Exponential Distribution]
+    - Geneflow estimation: Migration [Exponential Distribution]
+    - Divergence estimation: Divergence time [Normal Distribution [Shortcut] with mean and]
+                                             [and standard deviation sigma     ]
+
+Proposal distribution:
+Parameter group          Proposal type
+-----------------------  -------------------
+Population size (Theta)  Metropolis sampling
+Migration rate      (M)  Metropolis sampling
+Divergence Time (D)  Metropolis sampling
+Divergence time spread (STD) Metropolis sampling
+Genealogy                Metropolis-Hastings
+
+
+Prior distribution (Proposal-delta will be tuned to acceptance frequence 0.440000):
+Parameter group            Prior type   Minimum    Mean(*)    Maximum    Delta      Bins   Updatefreq
+-------------------------  ------------ ---------- ---------- ---------- ---------- ------ -------
+Population size (Theta_1)      Uniform  0.000000   0.050000   0.100000   0.010000    1500  0.04545
+Population size (Theta_2)      Uniform  0.000000   0.050000   0.100000   0.010000    1500  0.04545
+Population size (Theta_3)      Uniform  0.000000   0.050000   0.100000   0.010000    1500  0.04545
+Migration 2 to 1   (M)         Uniform  0.000000  500.000000 1000.00000 100.000000   1500  0.04545
+Migration 1 to 2   (M)         Uniform  0.000000  500.000000 1000.00000 100.000000   1500  0.04545
+Migration 3 to 2   (M)         Uniform  0.000000  500.000000 1000.00000 100.000000   1500  0.04545
+Migration 2 to 3   (M)         Uniform  0.000000  500.000000 1000.00000 100.000000   1500  0.04545
+Ancestor 1 to 2 (D_time)      Uniform  0.000000   0.250000   0.500000   0.050000    1500  0.04545
+Ancestor 1 to 2 (S_time)      Uniform  0.000000   0.250000   0.500000   0.050000    1500  0.04545
+Ancestor 2 to 3 (D_time)      Uniform  0.000000   0.250000   0.500000   0.050000    1500  0.04545
+Ancestor 2 to 3 (S_time)      Uniform  0.000000   0.250000   0.500000   0.050000    1500  0.04545
+
+
+
+
+Inheritance scalers in use for Thetas (specified scalars=1)
+1.00 1.00 
+[Each Theta uses the (true) inheritance scalar of the first locus as a reference]
+
+
+Pseudo-random number generator: Mersenne-Twister                                
+Random number seed (with internal timer)           2442895471
+
+Start parameters:
+   First genealogy was started using a random tree
+   Start parameter values were generated
+Connection matrix:
+m = average (average over a group of Thetas or M,
+s = symmetric migration M, S = symmetric 4Nm,
+0 = zero, and not estimated,
+* = migration free to vary, Thetas are on diagonal
+d = row population split off column population
+D = split and then migration
+   1 Great_Salt     * * 0 
+   2 Great_Salt     D * * 
+   3 Sevier_Des     0 D * 
+
+
+
+Mutation rate is constant for all loci
+
+Markov chain settings:
+   Long chains (long-chains):                              1
+      Steps sampled (inc*samples*rep):              20000000
+      Steps recorded (sample*rep):                     20000
+   Combining over replicates:                              2
+   Static heating scheme
+      4 chains with  temperatures
+       1.00, 1.50, 3.00,1000000.00
+      Swapping interval is 1
+   Burn-in per replicate (samples*inc):              1000000
+
+Print options:
+   Data file:                                         infile
+   Haplotyping is turned on:                              NO
+   Output file (ASCII text):                         outfile
+   Output file (PDF):                            outfile.pdf
+   Posterior distribution:                         bayesfile
+   Print data:                                            No
+   Print genealogies:                                     No
+
+Summary of data:
+Title:                           Rhinichthys osculus dataset
+Data file:                                            infile
+Datatype:                                     Haplotype data
+Number of loci:                                            2
+Mutationmodel:
+ Locus  Sublocus  Mutationmodel   Mutationmodel parameter
+-----------------------------------------------------------------
+     1         1 Kimura          [Basefreq: =0.25, kappa=4.0900]
+     2         1 Kimura          [Basefreq: =0.25, kappa=4.0900]
+
+
+Sites per locus
+---------------
+Locus    Sites
+     1     1140
+     2     297
+
+Population                   Locus   Gene copies    
+----------------------------------------------------
+  1 Great_Salt_lake              1        10
+  1                              2         1
+  2 Great_Salt_Lake_Desert       1        22
+  2                              2        11
+  3 Sevier_Desert                1        21
+  3                              2         6
+    Total of all populations     1        53
+                                 2        18
+
+
+
+
+Bayesian estimates
+==================
+
+Locus Parameter        2.5%      25.0%    mode     75.0%   97.5%     median   mean
+-----------------------------------------------------------------------------------
+    1  Theta_1         0.00393  0.00707  0.00897  0.01133  0.02013  0.01110  0.01214
+    1  Theta_2         0.00627  0.00993  0.01230  0.01447  0.02193  0.01330  0.01390
+    1  Theta_3         0.00980  0.01540  0.01837  0.01947  0.02473  0.01743  0.01805
+    1  M_2->1          0.00000  0.00000  2.33333 22.00000 62.00000 19.00000 28.66825
+    1  M_1->2          0.00000  0.00000 16.33333 39.33333 150.00000 45.00000 60.64730
+    1  M_3->2          0.00000  4.00000 26.33333 38.66667 175.33333 60.33333 75.19866
+    1  M_2->3          0.00000  2.00000 19.66667 40.00000 202.66667 47.66667 79.84935
+    1  D_1->2          0.00000  0.00000  0.00217  0.02433  0.10467  0.02683  0.09627
+    1  S_1->2          0.00233  0.00333  0.01050  0.05167  0.10167  0.07317  0.14633
+    1  D_2->3          0.00000  0.00000  0.00050  0.02333  0.03400  0.20950  0.21891
+    1  S_2->3          0.00000  0.00167  0.00550  0.02133  0.03167  0.22917  0.23184
+    2  Theta_1         0.00353  0.02353  0.02537  0.02920  0.05433  0.03537  0.03625
+    2  Theta_2         0.00693  0.02113  0.02190  0.02313  0.03587  0.02010  0.02144
+    2  Theta_3         0.01100  0.01620  0.01643  0.01673  0.03660  0.04443  0.04824
+    2  M_2->1          0.00000  0.00000  3.00000 74.00000 245.33333 85.66667 210.66703
+    2  M_1->2          0.00000 18.66667 47.00000 76.00000 296.66667 106.33333 146.54144
+    2  M_3->2          0.00000 29.33333 43.66667 58.00000 180.00000 77.00000 94.15694
+    2  M_2->3          57.3333  80.6667 154.3333 184.0000 454.6667 268.3333 337.3675
+    2  D_1->2          0.00000  0.00000  0.00150  0.02933  0.04933  0.20517  0.21972
+    2  S_1->2          0.22433  0.22467  0.22583  0.22633  0.23200  0.25417  0.25298
+    2  D_2->3          0.35467  0.35633  0.35683  0.35700  0.36133  0.24383  0.24469
+    2  S_2->3          0.07233  0.07267  0.07317  0.07333  0.07467  0.25550  0.25265
+  All  Theta_1         0.00513  0.00967  0.01030  0.01067  0.01913  0.01277  0.01431
+  All  Theta_2         0.00853  0.01120  0.01323  0.01567  0.02313  0.01437  0.01504
+  All  Theta_3         0.01020  0.01447  0.01750  0.01987  0.02920  0.01783  0.01846
+  All  M_2->1          0.00000  0.00000  0.33333 14.66667 58.66667 15.00000 19.84095
+  All  M_1->2          0.00000  8.66667 28.33333 53.33333 136.00000 45.66667 54.57879
+  All  M_3->2          5.33333 15.33333 33.00000 50.66667 63.33333 49.66667 58.20636
+  All  M_2->3           0.0000  15.3333 102.3333 148.0000 256.6667 100.3333 111.2202
+  All  D_1->2          0.00000  0.00000  0.00017  0.01333  0.16300  0.01350  0.03435
+  All  S_1->2          0.00000  0.00433  0.01617  0.04233  0.18600  0.03983  0.06855
+  All  D_2->3          0.00000  0.00000  0.00017  0.08133  0.19967  0.08983  0.09863
+  All  S_2->3          0.00000  0.00000  0.01050  0.05933  0.09933  0.10817  0.11146
+-----------------------------------------------------------------------------------
+
+
+
+Log-Probability of the data given the model (marginal likelihood = log(P(D|thisModel))
+--------------------------------------------------------------------
+[Use this value for Bayes factor calculations:
+BF = Exp[log(P(D|thisModel) - log(P(D|otherModel)]
+shows the support for thisModel]
+
+
+
+Locus      Raw Thermodynamic score(1a)  Bezier approximated score(1b)      Harmonic mean(2)
+------------------------------------------------------------------------------------------
+      1              -4685.92                      -3535.70               -3305.83
+      2               -875.20                       -757.27                -729.68
+---------------------------------------------------------------------------------------
+  All                -5583.30                      -4315.15               -4087.74
+[Scaling factor = -22.180558]
+
+
+(1a) Thermodynamic integration: log(Prob(D|Model)): Good approximation with many temperatures
+(1b) Bezier-approximated Thermodynamic integration: when using few temperatures USE THIS!
+(2)  Harmonic mean approximation: Overestimates the marginal likelihood, poor variance
+
+
+
+MCMC run characteristics
+========================
+
+
+
+
+Acceptance ratios for all parameters and the genealogies
+---------------------------------------------------------------------
+
+Parameter           Accepted changes               Ratio
+Theta_1                1081492/1817373           0.59509
+Theta_2                 922427/1820637           0.50665
+Theta_3                1244064/1817101           0.68464
+M_2->1                  961580/1817839           0.52897
+M_1->2                  940529/1818286           0.51726
+M_3->2                 1180770/1818002           0.64949
+M_2->3                 1060176/1818346           0.58304
+D_1->2                  1200890/1815145           0.66159
+S_1->2                  1653449/1817175           0.90990
+D_2->3                  1653449/1818441           0.90927
+S_2->3                  1957567/1818418           1.07652
+Genealogies            1957567/20003237           0.09786
+
+
+
+Autocorrelation for all parameters and the genealogies
+------------------------------------------------------------------------
+
+Parameter           Autocorrelation                Effective Sample size
+Theta_1                   0.426                 18830.529
+Theta_2                   0.438                 18055.194
+Theta_3                   0.416                 19126.430
+M_2->1                   0.692                  8126.266
+M_1->2                   0.587                 10870.285
+M_3->2                   0.749                  6700.545
+M_2->3                   0.701                  7643.445
+D_1->2                    0.270                 23955.168
+S_1->2                    0.207                 27611.600
+D_2->3                    0.103                 33518.047
+S_2->3                    0.075                 35172.262
+Genealogies               0.314                  22421.711
+(*) averaged over loci.
